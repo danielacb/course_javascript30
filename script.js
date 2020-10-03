@@ -153,7 +153,7 @@ const challenges = [
 ];
 
 document.getElementById('challenges').innerHTML = challenges.map(challenge => `
-  <a href="/${challenge.link}/index.html" class="card">
+  <a href="${challenge.link}/index.html" class="card">
     <img src="images/${challenge.link}.png" alt="Challenge ${challenge.day}: ${challenge.title}">
     <div class="description">
       <h3>Day ${challenge.day}</h3>
