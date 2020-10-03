@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+  background: #ffc600;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  color: #1C1C1C;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 3.6em;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+h2, h3 {
+  text-align: left;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #2C2738;
+}
+
+h3 {
+  font-size: .8em;
+  color: #2C2738;
+  opacity: .6;
+}
+
+p {
+  color: #2C2738;
+  font-weight: 400;
+}
+
+#challenges {
+  max-width: 1152px;
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 60px auto 120px;
+}
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 16px 56px rgba(44, 39, 56, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .description {
+  padding: 12px 20px 20px;
+}
+
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: .9em;
+  }
+  h3 {
+    font-size: .7em;
+  }
+  p {
+    font-size: .8em;
+  }
+  #challenges {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  h2 {
+    font-size: 1em;
+  }
+  #challenges {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 20px;
+  }
+}
+
