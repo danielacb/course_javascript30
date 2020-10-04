@@ -72,3 +72,18 @@ span.population {
 .hl {
   background: #ffc600;
 }
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+}

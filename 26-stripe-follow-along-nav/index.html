@@ -3,10 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Follow Along Nav</title>
+  <title>#26 - Follow Along Nav</title>
 </head>
 
 <body>
+
+  <nav id="challenge">
+    <a href="../25-event-capture-propagation-bubbling-and-once/index.html">#25</a>
+    <a href="../index.html">Javascript30<br>#26</a>
+    <a href="../27-click-and-drag/index.html">#27</a>
+  </nav>
+
   <h2>Cool</h2>
   <nav class="top">
     <div class="dropdownBackground">
@@ -229,6 +236,22 @@
 
     .button[href*=courses] {
       background: #ffc600;
+    }
+
+    #challenge {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      text-align: center;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    #challenge a {
+      text-decoration: none;
+      color: #000000;
+      text-transform: uppercase;
     }
   </style>
 

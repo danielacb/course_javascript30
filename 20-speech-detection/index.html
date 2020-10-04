@@ -3,10 +3,16 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Speech Detection</title>
+  <title>#20 - Speech Detection</title>
 </head>
 
 <body>
+
+  <nav>
+    <a href="../19-webcam-fun/index.html">#19</a>
+    <a href="../index.html">Javascript30<br>#20</a>
+    <a href="../21-geolocation/index.html">#21</a>
+  </nav>
 
   <div class="words" contenteditable>
   </div>
@@ -78,6 +84,22 @@
       bottom: 0;
       border: 1px solid;
       border-color: transparent #efe4e4;
+    }
+
+    nav {
+      width: calc(100% - 40px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      text-align: center;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000000;
+      text-transform: uppercase;
     }
   </style>
 

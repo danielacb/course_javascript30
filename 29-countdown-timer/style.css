@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   font-size: 10px;
   background: #8E24AA;
-  background: linear-gradient(45deg, #42a5f5 0%, #478ed1 50%, #0d47a1 100%);
+  background: linear-gradient(160deg, #42a5f5 0%, #478ed1 50%, #0d47a1 100%);
 }
 
 *,
@@ -32,6 +32,9 @@ body {
 }
 
 .timer__controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
 }
 
@@ -81,4 +84,24 @@ body {
 .display__end-time {
   font-size: 4rem;
   color: white;
+}
+
+nav {
+  font-size: 1.6em;
+  position: absolute;
+  top: 0;
+  background-color: rgba(13,71,161, .6);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
 }

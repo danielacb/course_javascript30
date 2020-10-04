@@ -39,3 +39,19 @@ label {
 input {
     width: 100px;
 }
+
+nav {
+    font-size: .6em;
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(250, 250, 250, .7);
+    text-transform: uppercase;
+}

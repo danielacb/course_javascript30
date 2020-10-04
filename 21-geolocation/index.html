@@ -3,11 +3,18 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>#21 - Geolocation</title>
   <meta name="viewport" content="width=device-width">
 </head>
 
 <body>
+
+  <nav>
+    <a href="../20-speech-detection/index.html">#20</a>
+    <a href="../index.html">Javascript30<br>#21</a>
+    <a href="../22-follow-along-link-highlighter/index.html">#22</a>
+  </nav>
+
   <svg class="arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
     y="0px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
     <g>
@@ -75,6 +82,26 @@
 
     .units {
       font-size: 15px;
+    }
+
+    nav {
+      position: absolute;
+      top: 0;
+      font-size: .18em;
+      background-color: rgba(0, 0, 0, .1);
+      width: calc(100% - 40px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      text-align: center;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ffffff;
+      text-transform: uppercase;
     }
 
     /*Compass: https://thenounproject.com/search/?q=compass&i=592352*/

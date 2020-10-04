@@ -4,10 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML5 Canvas</title>
+  <title>#08 - HTML5 Canvas</title>
 </head>
 
 <body>
+
+  <nav>
+    <a href="../07-array-cardio-day-2/index.html">#07</a>
+    <a href="../index.html">Javascript30<br>#08</a>
+    <a href="../09-dev-tools-domination/">#09</a>
+  </nav>
+
   <canvas id="draw" width="800" height="800"></canvas>
 
   <script>
@@ -71,6 +78,24 @@
     html,
     body {
       margin: 0;
+    }
+
+    nav {
+      position: absolute;
+      background-color: rgba(0, 0, 0, .1);
+      width: calc(100% - 40px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      text-align: center;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000000;
+      text-transform: uppercase;
     }
   </style>
 

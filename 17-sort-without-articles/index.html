@@ -4,10 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sort Without Articles</title>
+  <title>#17 - Sort Without Articles</title>
 </head>
 
 <body>
+
+  <nav>
+    <a href="../16-mouse-move-shadow/index.html">#16</a>
+    <a href="../index.html">Javascript30<br>#17</a>
+    <a href="../18-adding-up-timesrwith-reduce/index.html">#18</a>
+  </nav>
 
   <style>
     body {
@@ -28,11 +34,12 @@
       margin: auto;
       padding: 0;
       box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+      margin-top: 120px;
     }
 
     #bands li {
       border-bottom: 1px solid #efefef;
-      padding: 20px;
+      padding: 14px;
     }
 
     #bands li:last-child {
@@ -42,6 +49,25 @@
     a {
       color: #ffc600;
       text-decoration: none;
+    }
+
+    nav {
+      position: absolute;
+      top: 0;
+      background-color: rgba(0, 0, 0, .1);
+      width: calc(100% - 40px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      text-align: center;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000000;
+      text-transform: uppercase;
     }
   </style>
 
@@ -60,7 +86,7 @@
     const sortedBands = bands.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
 
     document.getElementById('bands').innerHTML = sortedBands.map(band => `<li>${band}</li>`).join('');
-    
+
   </script>
 
 </body>

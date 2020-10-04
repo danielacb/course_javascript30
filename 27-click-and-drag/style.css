@@ -21,7 +21,8 @@ body {
 }
 
 .items {
-  height: 800px;
+  margin-top: 45px;
+  height: 755px;
   padding: 100px;
   width: 100%;
   border: 1px solid white;
@@ -100,4 +101,26 @@ body {
 
 .item:nth-child(odd) {
   transform: scaleX(1.31) rotateY(-40deg);
+}
+
+nav {
+  font-size: .8em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
 }

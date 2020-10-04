@@ -32,7 +32,7 @@ html {
 
 .player {
   position: absolute;
-  top: 20px;
+  top: 80px;
   right: 20px;
   width:200px;
 }
@@ -58,3 +58,21 @@ html {
 .strip a:nth-child(5n+3) img { transform: rotate(8deg); }
 .strip a:nth-child(5n+4) img { transform: rotate(-11deg); }
 .strip a:nth-child(5n+5) img { transform: rotate(12deg); }
+
+
+nav {
+  font-size: 1.3em;
+  width: calc(100% - 40px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+}

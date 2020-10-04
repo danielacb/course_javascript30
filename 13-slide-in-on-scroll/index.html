@@ -4,10 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slide in on Scroll</title>
+  <title>#13 - Slide in on Scroll</title>
 </head>
 
 <body>
+
+  <nav>
+    <a href="../12-key-sequence-detection/index.html">#12</a>
+    <a href="../index.html">Javascript30<br>#13</a>
+    <a href="../14-javascript-references-vs-copying/index.html">#14</a>
+  </nav>
 
   <div class="site-wrap">
 
@@ -239,6 +245,23 @@
     .slide-in.active {
       opacity: 1;
       transform: translateX(0%) scale(1);
+    }
+
+    nav {
+      font-size: .9em;
+      width: calc(100% - 40px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      text-align: center;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000000;
+      text-transform: uppercase;
     }
   </style>
 

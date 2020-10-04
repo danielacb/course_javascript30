@@ -101,6 +101,23 @@ body {
     width: 2%;
 }
 
+nav {
+    width: calc(100% - 40px);
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(66, 155, 213, 0.6);
+    text-transform: uppercase;
+}
+
 @media (min-width: 1024px) {
     #clock {
         height: 480px;

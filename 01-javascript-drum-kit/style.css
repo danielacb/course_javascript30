@@ -140,6 +140,22 @@ p {
     pointer-events: none;
 }
 
+nav {
+    width: calc(100% - 40px);
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
 @media (min-width: 1025px) {
     .keys {
         grid-gap: 20px;

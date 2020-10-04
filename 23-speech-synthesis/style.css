@@ -92,3 +92,22 @@ input[type="select"] {
 .voiceinator button:nth-of-type(1) {
   margin-right: 2%;
 }
+
+nav {
+  font-size: 1.6em;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+}
